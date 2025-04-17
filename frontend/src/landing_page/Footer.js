@@ -6,7 +6,7 @@ function Footer() {
       <div className="container border-top mt-5">
         <div className="row mt-5">
           <div className="col">
-            <img src="media/images/logo.svg" style={{ width: "50%" }} />
+            <img src="media/images/logo.svg" style={{ width: "50%" }} alt="Logo" />
             <p>
               &copy; 2010 - 2024, Not Zerodha Broking Ltd. All rights reserved.
             </p>
@@ -53,6 +53,7 @@ function Footer() {
             <br />
           </div>
         </div>
+
         <div className="mt-5 text-muted" style={{ fontSize: "14px" }}>
           <p>
             Zerodha Broking Ltd.: Member of NSE​ &​ BSE – SEBI Registration no.:
@@ -97,6 +98,16 @@ function Footer() {
             authorized anyone to trade on behalf of others. If you find anyone
             claiming to be part of Zerodha and offering such services, please
             create a ticket here.
+          </p>
+        </div>
+
+        {/* Personal Attribution Footer */}
+        <div className="text-center mt-4" style={{ fontSize: "14px", color: "#555" }}>
+          <p>
+            🔒 This project is developed and maintained by <strong>Sahrish Hasan</strong>.<br />
+            📧 <a href="mailto:sahrish.hasan02@gmail.com">sahrish.hasan02@gmail.com</a> | 
+            💼 <a href="https://www.linkedin.com/in/sahrish-hasan-021xa5" target="_blank" rel="noreferrer">LinkedIn</a> | 
+            💻 <a href="https://github.com/hasaniisaher21" target="_blank" rel="noreferrer">GitHub</a>
           </p>
         </div>
       </div>
