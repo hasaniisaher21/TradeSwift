@@ -11,13 +11,11 @@
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB (Cloud)
 - **WebSocket**: Real-time updates via Socket.io
-- **Authentication**: JWT, OAuth
 ---
 
 ## ✨ Key Features
 
 - 📊 **Real-Time Stock Updates** – Powered by WebSockets for live data refresh
-- 🔐 **Secure Login & Registration** – Authentication via JWT and OAuth
 - 📈 **Performance Optimizations** – Sub-500ms latency through backend caching strategies
 - 🧑‍💼 **User Dashboard** – Personalized portfolio tracking (Coming Soon)
 - 🔒 **Role-based Access Control** – Admin & user-level separation (Planned)
