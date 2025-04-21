@@ -5,7 +5,6 @@ import Stats from "./Stats";
 import Pricing from "./Pricing";
 import Education from "./Education";
 import OpenAccount from "../OpenAccount";
-// ❌ Remove Navbar and Footer imports
 
 function HomePage() {
   return (
